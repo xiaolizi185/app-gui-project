@@ -4,5 +4,47 @@
   <object class="GtkToolbar" id="main_tool_bar">
     <property name="visible">True</property>
     <property name="can_focus">False</property>
+    <child>
+      <object class="GtkToolButton" id="home_button">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="is_important">True</property>
+        <property name="label" translatable="yes">Home</property>
+        <property name="use_underline">True</property>
+        <property name="stock_id">gtk-home</property>
+      </object>
+      <packing>
+        <property name="expand">False</property>
+        <property name="homogeneous">True</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkToolButton" id="node_button">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="is_important">True</property>
+        <property name="label" translatable="yes">Node</property>
+        <property name="use_underline">True</property>
+        <property name="icon_name">computer</property>
+      </object>
+      <packing>
+        <property name="expand">False</property>
+        <property name="homogeneous">True</property>
+      </packing>
+    </child>
+    <child>
+      <object class="GtkToolButton" id="class_button">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="is_important">True</property>
+        <property name="label" translatable="yes">Class</property>
+        <property name="use_underline">True</property>
+        <property name="stock_id">gtk-file</property>
+      </object>
+      <packing>
+        <property name="expand">False</property>
+        <property name="homogeneous">True</property>
+      </packing>
+    </child>
   </object>
 </interface>
