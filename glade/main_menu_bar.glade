@@ -19,7 +19,7 @@
       <object class="GtkMenuItem" id="system_menu_item">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">系统</property>
+        <property name="label" translatable="yes">File</property>
         <property name="use_underline">True</property>
       </object>
     </child>
@@ -27,7 +27,7 @@
       <object class="GtkMenuItem" id="pool_menu_item">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">集群</property>
+        <property name="label" translatable="yes">Node</property>
         <property name="use_underline">True</property>
       </object>
     </child>
@@ -35,18 +35,12 @@
       <object class="GtkMenuItem" id="server_menu_item">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">服务器</property>
+        <property name="label" translatable="yes">Class</property>
         <property name="use_underline">True</property>
         <child type="submenu">
           <object class="GtkMenu" id="server_sub_menu">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
-            <child>
-              <object class="GtkSeparatorMenuItem" id="separatormenuitem2">
-                <property name="visible">True</property>
-                <property name="can_focus">False</property>
-              </object>
-            </child>
             <child>
               <object class="GtkImageMenuItem" id="restart_server_image_menu_item">
                 <property name="label" translatable="yes">重启主机</property>
@@ -65,7 +59,7 @@
       <object class="GtkMenuItem" id="help_menu_item">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="label" translatable="yes">帮助</property>
+        <property name="label" translatable="yes">Help</property>
         <property name="use_underline">True</property>
         <child type="submenu">
           <object class="GtkMenu" id="help_sub_menu">
