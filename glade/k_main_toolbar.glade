@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <object class="GtkToolbar" id="main_tool_bar">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+  </object>
+</interface>

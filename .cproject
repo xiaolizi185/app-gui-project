@@ -22,13 +22,12 @@
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.2006224542" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.1600017227" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug">
-								<option id="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level.118418778" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
-								<option id="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level.388189470" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
-								<option id="gnu.cpp.compiler.option.include.paths.190413620" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/knetworkapi/include}&quot;"/>
+								<option id="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level.118418778" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level.388189470" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.190413620" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\msys64\mingw64\include\libxml2&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\msys64\mingw64\include\gtk-3.0\gdk&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/kapiobject/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\msys64\mingw64\include\json-glib-1.0&quot;"/>
 									<listOptionValue builtIn="false" value="C:/msys64/mingw64/include/cairo"/>
 									<listOptionValue builtIn="false" value="C:/msys64/mingw64/include/pango-1.0"/>
@@ -45,13 +44,12 @@
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1587514659" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.400450961" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug">
-								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.mingw.exe.debug.option.optimization.level.1366003166" name="Optimization Level" superClass="gnu.c.compiler.mingw.exe.debug.option.optimization.level" valueType="enumerated"/>
-								<option id="gnu.c.compiler.mingw.exe.debug.option.debugging.level.1423801422" name="Debug Level" superClass="gnu.c.compiler.mingw.exe.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
-								<option id="gnu.c.compiler.option.include.paths.481133422" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/knetworkapi/include}&quot;"/>
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.mingw.exe.debug.option.optimization.level.1366003166" name="Optimization Level" superClass="gnu.c.compiler.mingw.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.mingw.exe.debug.option.debugging.level.1423801422" name="Debug Level" superClass="gnu.c.compiler.mingw.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.481133422" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\msys64\mingw64\include\libxml2&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\msys64\mingw64\include\gtk-3.0\gdk&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/kapiobject/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;C:\msys64\mingw64\include\json-glib-1.0&quot;"/>
 									<listOptionValue builtIn="false" value="C:/msys64/mingw64/include/cairo"/>
 									<listOptionValue builtIn="false" value="C:/msys64/mingw64/include/pango-1.0"/>
@@ -86,6 +84,7 @@
 									<listOptionValue builtIn="false" value="cairo-gobject"/>
 									<listOptionValue builtIn="false" value="cairo"/>
 									<listOptionValue builtIn="false" value="json-glib-1.0"/>
+									<listOptionValue builtIn="false" value="gmodule-2.0"/>
 									<listOptionValue builtIn="false" value="glib-2.0"/>
 									<listOptionValue builtIn="false" value="gobject-2.0"/>
 									<listOptionValue builtIn="false" value="curl"/>
