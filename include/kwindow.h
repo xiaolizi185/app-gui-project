@@ -53,6 +53,7 @@ struct _KWindow {
 	GtkTreeView* tree;
 	GtkStatusbar* statusbar;
 	GtkPaned* task_paned;
+	GtkScrolledWindow *sw1;
 };
 
 struct _KWindowClass {
