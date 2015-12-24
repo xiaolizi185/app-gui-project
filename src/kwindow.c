@@ -104,9 +104,11 @@ KWindow* k_window_new(Kmain_builder* k_main_builer) {
 			gtk_builder_get_object(k_window->builder, "paned2"));
 	k_window->sw1 = GTK_SCROLLED_WINDOW(
 				gtk_builder_get_object(k_window->builder, "scrolledwindow2"));
-
+	k_window->sw2 = GTK_SCROLLED_WINDOW(
+					gtk_builder_get_object(k_window->builder, "scrolledwindow1"));
 	k_main_builer->mainwindow_builder = builder;
 	return (KWindow*) k_window;
+
 }
 
 void k_window_show(KWindow *kwindow) {
