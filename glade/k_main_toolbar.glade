@@ -23,7 +23,7 @@
         <property name="visible">True</property>
         <property name="can_focus">False</property>
         <property name="is_important">True</property>
-        <property name="label" translatable="yes">Node</property>
+        <property name="label" translatable="yes">Add Node</property>
         <property name="use_underline">True</property>
         <property name="icon_name">computer</property>
       </object>
@@ -33,11 +33,11 @@
       </packing>
     </child>
     <child>
-      <object class="GtkToolButton" id="class_button">
+      <object class="GtkToolButton" id="package_button">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
         <property name="is_important">True</property>
-        <property name="label" translatable="yes">Class</property>
+        <property name="label" translatable="yes">Add Package</property>
         <property name="use_underline">True</property>
         <property name="stock_id">gtk-file</property>
       </object>

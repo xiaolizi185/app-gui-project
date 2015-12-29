@@ -12,6 +12,10 @@ NewBoject new_object;
 typedef GtkWidget* (*GetWidget)(gpointer);
 GetWidget get_widget;
 
+
+typedef gpointer (*GetMainObject)(gpointer);
+GetMainObject get_main_object;
+
 typedef gint (*GetIndex)();
 GetIndex get_index;
 void load_main(KWindow* kwindow);
